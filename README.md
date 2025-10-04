@@ -12,3 +12,17 @@
 
 ## Команды SSH  
 **ssh-keygen** - сгенерировать ключи  
+
+## Статусы
+modified + git add = staged
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "git commit"     --> tracked/comitted;
+  tracked/comitted -- "Изменения" --> modified;
+  modified -- "git add" --> staged;
+  staged -- "Изменения" --> modified;
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
