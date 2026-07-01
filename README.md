@@ -3,5 +3,5 @@
 Russian language instructions for various programming tools that I would like to memorize
 
 ## Version control
-- [Git](git.md)
 
+- [Git](git.md)
