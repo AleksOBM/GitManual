@@ -3,12 +3,12 @@
 #### Показать структуру каталога
 
 Команда
-```shell
+```bash
 tree
 ```
 
 Пример
-```shell
+```bash
 $ tree ./Проект  
 ./Проект  
 ├── content  
@@ -25,12 +25,12 @@ $ tree ./Проект
 #### Посмотреть процессы на порту
 
 Команда
-```shell
+```bash
 sudo lsof -i :8080
 ```
 
 Пример
-```shell
+```bash
 $ sudo lsof -i :8080  
 COMMAND   PID  USER  FD   TYPE DEVICE SIZE/OFF NODE NAME  
 java    59559 aleks 145u  IPv4 695194      0t0  TCP *:http-alt (LISTEN)
@@ -40,12 +40,12 @@ java    59559 aleks 145u  IPv4 695194      0t0  TCP *:http-alt (LISTEN
 #### Узнать имя приложения по его PID
 
 Команда
-```shell
+```bash
 ps -p 59559 -o comm=
 ```
 
 Пример
-```shell
+```bash
 $ ps -p 59559 -o comm=  
 java
 ```
