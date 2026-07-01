@@ -1,6 +1,6 @@
 # Apache Kafka
 
-![](files/kafka.png)
+![](/files/kafka.png)
 
 ## Работа с Kafka в Docker
 
