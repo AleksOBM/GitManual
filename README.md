@@ -5,4 +5,6 @@ Russian language instructions for various programming tools that I would like to
 ## Version control
 
 - [Git](manuals/git.md)
+- [Kafka](kafka.md)
+
 
