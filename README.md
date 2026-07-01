@@ -4,4 +4,5 @@ Russian language instructions for various programming tools that I would like to
 
 ## Version control
 
-- [Git](git.md)
+- [Git](/manuals/git)
+
